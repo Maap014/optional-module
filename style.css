@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#bod{
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+h1{
+    font-size: 2rem;
+}
+.size{
+font-size: 1.5rem;
+}
+.nav-link:hover{
+    background-color: lightslategray;
+}
+.hii{
+    width: 31%;
+}
+a{
+    text-decoration: none;
+    font-family:sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    color: #333;
+}
+a:visited{        
+
+    color: brown;
+}
+a:hover{        
+    color: chocolate;
+    text-decoration: underline;
+}
+a:active{      
+    color: red;  
+
+}
+@media (max-width:768px) {
+    .hii{
+        width: 46%;
+    }
+    
+    .wii{
+        width: 100%;
+    }
+}
+
+@media (max-width:566px) {
+    .hii{
+        width: 90%;
+    }
+   
+    
+}
+
